@@ -9,37 +9,30 @@
 
 ---
 
+<p align="center">
+Full-Stack Developer | React & Next.js Enthusiast | Always Learning  
+</p>
+
 <div align="center">
 
-## 🚀 About Me
+## About Me
 
-*Passionate developer crafting digital experiences with modern web technologies*
 
 </div>
 
-```jsx
-const wanichanon = {
-    pronouns: "He/Him",
-    location: "Thailand 🇹🇭",
-    currentStatus: "Open for opportunities",
-    technologies: {
-        frontend: ["React", "Next.js", "JavaScript", "Tailwind CSS"],
-        backend: ["Node.js", "Express.js", "Supabase", "PayloadCMS"],
-        tools: ["VS Code", "Git", "Figma", "Framer Motion"]
-    },
-    currentFocus: "Building beautiful, performant web applications",
-};
-```
 
-<br clear="both" />
+- 🌏 Based in **Thailand**  
+- 🛠️ Building **modern, performant web apps**  
+- 🎨 Love in **clean design + smooth user experience**  
+- 🔍 Always exploring **new technologies** and sharing what I learn  
+
 
 ---
 
 <div align="center">
 
-## 🛠️ Tech Arsenal
+## 🛠️ Tech Stack
 
-*Tools and technologies I work with*
 
 </div>
 
@@ -73,58 +66,37 @@ const wanichanon = {
 
 <div align="center">
 
-## 🎯 What I Do
+## What I Do  
+  
 
-</div>
 
-<table align="center">
-<tr>
-<td align="left" width="50%">
-
-### 🎨 Frontend Magic
-
-**Technologies:**
-- ⚛️ React & Next.js
-- 🎭 Framer Motion
-- 🎨 Tailwind CSS
-
-</td>
-<td align="left" width="50%">
-
-### 🔧 Backend Power  
-
-**Technologies:**
-- 🟢 Node.js & Express
-- 🍃 MongoDB & Supabase
-- � JWT Authentication
-- 📡 RESTful APIs
-
-</td>
-</tr>
-
-</table>
-<table align="center">
-<tr>
-<td align="left" width="100%">
-
-### 🚀 Performance Optimization
-
-**Focus Areas:**
-- 🔄 Lazy Loading
-- 📦 Bundle Optimization
-- 🖼️ Image Optimization
-
-</td>
-</tr>
-</table>
+### Frontend 
+⚛️ **React & Next.js** — building fast, SEO-friendly apps  
+🎭 **Framer Motion** — delightful animations & interactions  
+🎨 **Tailwind CSS** — clean, responsive design  
 
 ---
 
-<div align="center">
+### Backend 
+🟢 **Node.js & Express** — scalable backend services  
+🍃 **MongoDB & Supabase** — flexible databases & auth  
+🔑 **JWT Authentication** — secure user management  
+📡 **RESTful APIs** — reliable communication between services  
+
+---
+
+### Performance Optimization  
+🔄 **Lazy Loading** — faster page loads  
+📦 **Bundle Optimization** — efficient builds  
+🖼️ **Image Optimization** — smooth UX on all devices  
+
+---
 
 ## 🌟 Featured Projects
 
-*Some things I've built that I'm proud of*
+![Metrics](https://github.com/N0Vee/N0Vee/blob/main/github-metrics.svg)
+
+🔗 [**wanichanon.dev**](https://wanichanon.dev) — My personal website  
 
 </div>
 
@@ -135,14 +107,12 @@ const wanichanon = {
 </div>
 
 
-
 ---
 
 <div align="center">
 
 ## 💼 Open for Opportunities
 
-*Ready to bring your ideas to life!*
 
 </div>
 
@@ -156,7 +126,6 @@ interface OpportunitiesIAmLookingFor {
     collaboration: "Startup Projects" | "Open Source" | "Interesting Ideas";
 }
 
-// Let's build something amazing together! 🚀
 ```
 
 <table>
@@ -186,7 +155,6 @@ interface OpportunitiesIAmLookingFor {
 
 ## 🤝 Let's Connect!
 
-*I'd love to hear from you!*
 
 <a href="https://wanichanon.dev"><img src="https://img.shields.io/badge/🌐_Portfolio-wanichanon.dev-6366F1?style=for-the-badge&logoColor=white"></a>
 <a href="mailto:wanichanon.work@gmail.com"><img src="https://img.shields.io/badge/📧_Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
@@ -200,10 +168,8 @@ interface OpportunitiesIAmLookingFor {
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=16&fontColor=fff&animation=twinkling&fontAlignY=75"/>
 
-**✨ Always excited about new projects and collaboration opportunities! ✨**
 
-<sub>💡 *Feel free to reach out if you want to discuss technology, work opportunities, or just say hi!*</sub>
 
-⭐ *Don't forget to star repositories you find interesting!* ⭐
+
 
 </div>
