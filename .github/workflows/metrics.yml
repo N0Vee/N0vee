@@ -20,6 +20,7 @@ jobs:
         with:
           # ระบุ Token ที่เราสร้างไว้ใน Secrets
           token: ${{ secrets.METRICS_TOKEN }}
+          
 
           # --- การตั้งค่าพื้นฐาน ---
           # ใส่ username ของคุณ
@@ -35,3 +36,4 @@ jobs:
           plugin_pagespeed_url: https://wanichanon.dev/
           # (ตัวเลือกเสริม) แสดงผลแบบละเอียด
           plugin_pagespeed_detailed: yes
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
