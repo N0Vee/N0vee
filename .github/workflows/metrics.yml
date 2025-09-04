@@ -1,0 +1,37 @@
+name: Metrics
+on:
+  # ตั้งเวลาให้รันอัตโนมัติ (ตัวอย่างคือรันทุก 6 ชั่วโมง)
+  schedule:
+    - cron: "0 */6 * * *"
+  # อนุญาตให้รันเองได้จากแท็บ Actions
+  workflow_dispatch:
+  # รันเมื่อมีการ push code ไปยัง branch main/master
+  push:
+    branches:
+      - "main"
+      - "master"
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # ระบุ Token ที่เราสร้างไว้ใน Secrets
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # --- การตั้งค่าพื้นฐาน ---
+          # ใส่ username ของคุณ
+          user: N0Vee 
+          # เลือก theme ของการ์ด
+          template: classic
+          # เลือก plugin ที่จะแสดงผล (header, activity, community คือค่าพื้นฐาน)
+          base: header, activity, community
+
+          # --- เปิดใช้งาน PageSpeed Plugin ---
+          plugin_pagespeed: yes
+          # ★★★ ใส่ URL เว็บไซต์ของคุณตรงนี้ ★★★
+          plugin_pagespeed_url: https://wanichanon.dev/
+          # (ตัวเลือกเสริม) แสดงผลแบบละเอียด
+          plugin_pagespeed_detailed: yes
